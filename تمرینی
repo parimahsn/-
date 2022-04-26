@@ -1,0 +1,12 @@
+program t
+implicit noun 
+real::x1,x2,delta
+integer::a,b,c
+print*,a,b,c
+read*,a,b,c
+delta=b**2-4ac
+x1=(-b+delta**(1/2))/(2*a)
+x2=(-b-delta**(1/2))/(2*a)
+print*,"x1=",x1,"x2=",x2
+stop
+end program t
